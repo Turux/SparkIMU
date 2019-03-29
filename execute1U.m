@@ -12,10 +12,10 @@ plot(IMU.ms,IMU.ax)
 title('Ax')
 ax2=subplot(3,1,2);
 plot(IMU.ms,IMU.ay)
-title('Left Ay')
+title('Ay')
 ax3=subplot(3,1,3);
 plot(IMU.ms,IMU.az)
-title('Left Az')
+title('Az')
 linkaxes([ax1,ax2,ax3],'x')
 
 figure
@@ -29,7 +29,7 @@ title('Gx')
 ax2=subplot(3,1,2);
 plot(IMU.ms,IMU.gy)
 title('Gy')
-ax3=subplot(3,2,3);
+ax3=subplot(3,1,3);
 plot(IMU.ms,IMU.gz)
 title('Gz')
 linkaxes([ax1,ax2,ax3],'x')
